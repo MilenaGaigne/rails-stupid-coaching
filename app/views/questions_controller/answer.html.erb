@@ -1,0 +1,9 @@
+<head> <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"></head>
+<h1>YOUR COACH SAYS :</h1>
+
+<p>You : <%= @question %></p>
+
+<p>Your coach :<%= @answer %></p>
+
+<!-- <a href="http://localhost:3000/ask">Ask a new question</a> -->
+<%= link_to "Ask a new question", ask_path %>
